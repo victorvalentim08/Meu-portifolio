@@ -1,0 +1,60 @@
+body {
+    background-color: hsl(39, 53%, 88%);
+}
+
+nav {
+    background-color: #4d0049; 
+    padding: 10px; 
+    text-align: center;
+}
+
+nav a{
+    color: white;
+    margin: 0 15px; 
+    text-decoration: none;
+}
+
+footer {
+    text-align: center; 
+    padding: 10px; 
+    background-color: #4d0049;
+    color: antiquewhite;
+}
+
+div{
+    text-align: center; 
+    padding: 10px;
+    margin-top: 20p cx;
+}
+
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+    border-radius: 10px;
+}
+
+.galeria {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+  }
+  
+  .galeria h2 {
+    text-align: center;
+    color: #4d0049;
+    margin-bottom: 10px;
+  }
+  
+  .grid-galeria {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 colunas */
+    gap: 10px;
+  }
+  
+  .grid-galeria img {
+    width: 100%;
+    height: auto;
+  }
+
